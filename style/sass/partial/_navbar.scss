@@ -1,0 +1,10 @@
+.shopify-logo {
+  width: 150px;
+  height: 70px;
+}
+// responsive
+@media (max-width: 576px) {
+  .dropdown-item::after{
+    transform: rotate(90deg);
+  }
+}
