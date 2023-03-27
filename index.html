@@ -15,7 +15,7 @@
 </head>
 <body>
   <!-- navbar -->
-  <div class="container-md">
+  <!-- <div class="container-md fixed-top">
     <nav class="navbar navbar-expand-lg navbar-light ms-n2 ">
       <div class="container-fluid">
         <img src="./asset/shopify-logo.png" class="navbar-brand shopify-logo">
@@ -113,9 +113,107 @@
         </div>
       </div>
     </nav>
-  </div>
+  </div> -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-md">
+      <!-- <img src="./asset/shopify-logo.png" class="navbar-brand shopify-logo"> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>       
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Start
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Start your business</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Branding</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Look profesional and help <br> customers connect with your <br>business</a></li>
+                  <li><a href="#" class="dropdown-item">Business name generator</a></li>
+                  <li><a href="#" class="dropdown-item">Logo maker</a></li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Online presence</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Find a domain, explore stock <br> images, and amplify your brand</a></li>
+                  <li><a href="#" class="dropdown-item">Domain name</a></li>
+                  <li><a href="#" class="dropdown-item">Stock photography</a></li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Store set up</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Use Shopify’s powerful features <br> to start selling</a></li>
+                  <li><a href="#" class="dropdown-item">Website Builder</a></li>
+                  <li><a href="#" class="dropdown-item">Store themes</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+        </ul>
+        <div class="float-left">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-auto-close="outside" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Start
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Start your business</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="dropend">
+                  <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Branding</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Look profesional and help <br> customers connect with your <br>business</a></li>
+                    <li><a href="#" class="dropdown-item">Business name generator</a></li>
+                    <li><a href="#" class="dropdown-item">Logo maker</a></li>
+                  </ul>
+                </li>
+                <li class="dropend">
+                  <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Online presence</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Find a domain, explore stock <br> images, and amplify your brand</a></li>
+                    <li><a href="#" class="dropdown-item">Domain name</a></li>
+                    <li><a href="#" class="dropdown-item">Stock photography</a></li>
+                  </ul>
+                </li>
+                <li class="dropend">
+                  <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Store set up</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="dropdown-item">Use Shopify’s powerful features <br> to start selling</a></li>
+                    <li><a href="#" class="dropdown-item">Website Builder</a></li>
+                    <li><a href="#" class="dropdown-item">Store themes</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-success" type="submit">Start Free trial</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
   <!-- end navbar -->
   <!-- content 1 -->
+  
   <div class="cotent-1">
     <div class="row">
       <div class="col-md-6 d-flex align-items-center" >
@@ -425,8 +523,51 @@
         <div class="container-content ms-0 ms-md-5  " style="border: solid 1px blue;">
           <div class="row ms-0 ms-md-3">
             <div class="col-md-12 d-flex justify-content-center">
-              <span>Get the help you need, <br> </span> 
-              <span> every step of the way</span>
+              <div class="row">
+                <div class="col-md-12">
+                  <span class="fs-1">Get the help you need,</span> <br>
+                  <span class="fs-1">every step of the way</span>
+                </div>
+                <div class="col-md-6 mt-5">
+                  <div class="card card-tranparent">
+                    <div class="card-title">
+                      <span class="fw-bold">Shopify suport</span>
+                    </div>
+                    <div class="text-card-body">
+                      <span class="text-secondary">Contact support 24/7, whether you’re troubleshooting issues or looking for business advice.</span>
+                    </div>
+                    <div class="text-card-footer">
+                      <span class="text-green fw-bold">Contact support <i class="fa-solid fa-arrow-right ms-1"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                  <div class="card card-tranparent">
+                    <div class="card-title">
+                      <span class="fw-bold">Shopify App Store</span>
+                    </div>
+                    <div class="text-card-body">
+                      <span class="text-secondary">Add features and functionality to your business with 6,000+ apps that integrate directly with Shopify.</span>
+                    </div>
+                    <div class="text-card-footer">
+                      <span class="text-green fw-bold">Visit the Shopify App Store<i class="fa-solid fa-arrow-right ms-1"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-5">
+                  <div class="card card-tranparent">
+                    <div class="card-title">
+                      <span class="fw-bold">Shopify Experts Marketplace</span>
+                    </div>
+                    <div class="text-card-body">
+                      <span class="text-secondary">Hire a Shopify expert to help you with everything from store setup to SEO.</span>
+                    </div>
+                    <div class="text-card-footer">
+                      <span class="text-green fw-bold">Explore the Shopify Experts Marketplace<i class="fa-solid fa-arrow-right ms-1"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
